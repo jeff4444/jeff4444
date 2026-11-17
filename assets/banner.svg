@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="404" viewBox="0 0 1000 404" role="img" aria-labelledby="t d">
+  <title id="t">Jeff Mofor Allo — waveform viewer</title>
+  <desc id="d">A timing diagram of Jeff's path: NVIDIA GPU design-verification internships in 2024 and 2025, IEEE Howard president from 2025, and the trace signal going high in December 2025, when Jeff co-founded Trace.</desc>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .clk { animation: clk 0.9s linear infinite; }
+    @keyframes clk { to { transform: translateX(-20px); } }
+    .blink { animation: blink 1.2s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .curtain { animation: reveal 2.6s steps(79) 0.5s forwards; }
+    @keyframes reveal { to { transform: translateX(648px); } }
+    .caret { animation: caret 2.6s steps(79) 0.5s forwards, blink 1s step-end 3.1s infinite; }
+    @keyframes caret { to { transform: translateX(644px); } }
+    .cursor { animation: sweep 2.4s cubic-bezier(.2,.8,.2,1) 0.3s both; }
+    @keyframes sweep { from { transform: translateX(-679.0px); } to { transform: translateX(0); } }
+    .glow { animation: glow 2.8s ease-in-out infinite; }
+    @keyframes glow { 50% { fill-opacity: 0.22; } }
+    @media (prefers-reduced-motion: reduce) {
+      .clk, .blink, .glow { animation: none; }
+      .curtain { animation: none; transform: translateX(648px); }
+      .caret { animation: none; transform: translateX(644px); }
+      .cursor { animation: none; }
+    }
+  </style>
+  <rect x="0.5" y="0.5" width="999" height="403" rx="14" fill="#0b1016" stroke="#263241"/>
+  <path d="M14.5 0.5 H985.5 A14 14 0 0 1 999.5 14.5 V34 H0.5 V14.5 A14 14 0 0 1 14.5 0.5 Z" fill="#0f161e"/>
+  <line x1="0.5" y1="34" x2="999.5" y2="34" stroke="#263241"/>
+  <circle cx="22" cy="17" r="5.5" fill="#ff5f57"/>
+  <circle cx="40" cy="17" r="5.5" fill="#febc2e"/>
+  <circle cx="58" cy="17" r="5.5" fill="#28c840"/>
+  <text x="80" y="21.5" class="mono" font-size="12" fill="#8b98a5">jeff4444.vcd — waveform viewer</text>
+  <text x="976" y="21.5" class="mono" font-size="12" fill="#8b98a5" text-anchor="end">sim running <tspan class="blink" fill="#28c840">●</tspan></text>
+
+  <text x="32" y="86" class="sans" font-size="38" font-weight="700" fill="#e6edf3" letter-spacing="-0.5">Jeff Mofor Allo</text>
+  <clipPath id="subclip"><rect x="30" y="100" width="652" height="24"/></clipPath>
+  <text x="32" y="117" class="mono" font-size="13" fill="#8b98a5" textLength="640" lengthAdjust="spacing">hardware engineer · co-founder @ trace · full-stack, starting at the transistor</text>
+  <g clip-path="url(#subclip)"><rect class="curtain" x="30" y="100" width="652" height="24" fill="#0b1016"/></g>
+  <rect class="caret" x="34" y="104" width="7" height="16" fill="#ffa657"/>
+
+  <g class="mono" font-size="12">
+    <text x="968" y="66" text-anchor="end" fill="#4d5b69">loc <tspan fill="#c9d1d9">Washington, DC</tspan></text>
+    <text x="968" y="86" text-anchor="end" fill="#4d5b69">school <tspan fill="#c9d1d9">Howard University · EE</tspan></text>
+    <text x="968" y="106" text-anchor="end" fill="#4d5b69">prev <tspan fill="#76b900">NVIDIA</tspan><tspan fill="#c9d1d9"> GPU ASIC DV ×2</tspan></text>
+  </g>
+  <line x1="0.5" y1="140" x2="999.5" y2="140" stroke="#263241"/>
+<rect x="230" y="141" width="738" height="227" fill="#0c1218"/>
+  <line x1="230.0" y1="150" x2="230.0" y2="368" stroke="#1a2430" stroke-dasharray="2 4"/>
+  <text x="235.0" y="164" class="mono" font-size="11" fill="#4d5b69">2023</text>
+  <line x1="405.0" y1="150" x2="405.0" y2="368" stroke="#1a2430" stroke-dasharray="2 4"/>
+  <text x="410.0" y="164" class="mono" font-size="11" fill="#4d5b69">2024</text>
+  <line x1="580.0" y1="150" x2="580.0" y2="368" stroke="#1a2430" stroke-dasharray="2 4"/>
+  <text x="585.0" y="164" class="mono" font-size="11" fill="#4d5b69">2025</text>
+  <line x1="755.0" y1="150" x2="755.0" y2="368" stroke="#1a2430" stroke-dasharray="2 4"/>
+  <text x="760.0" y="164" class="mono" font-size="11" fill="#4d5b69">2026</text>
+  <line x1="273.8" y1="170" x2="273.8" y2="174" stroke="#4d5b69"/>
+  <line x1="317.5" y1="170" x2="317.5" y2="174" stroke="#4d5b69"/>
+  <line x1="361.2" y1="170" x2="361.2" y2="174" stroke="#4d5b69"/>
+  <line x1="448.8" y1="170" x2="448.8" y2="174" stroke="#4d5b69"/>
+  <line x1="492.5" y1="170" x2="492.5" y2="174" stroke="#4d5b69"/>
+  <line x1="536.2" y1="170" x2="536.2" y2="174" stroke="#4d5b69"/>
+  <line x1="623.8" y1="170" x2="623.8" y2="174" stroke="#4d5b69"/>
+  <line x1="667.5" y1="170" x2="667.5" y2="174" stroke="#4d5b69"/>
+  <line x1="711.2" y1="170" x2="711.2" y2="174" stroke="#4d5b69"/>
+  <line x1="798.8" y1="170" x2="798.8" y2="174" stroke="#4d5b69"/>
+  <line x1="842.5" y1="170" x2="842.5" y2="174" stroke="#4d5b69"/>
+  <line x1="886.2" y1="170" x2="886.2" y2="174" stroke="#4d5b69"/>
+  <line x1="230" y1="174" x2="968" y2="174" stroke="#263241"/>
+  <line x1="230" y1="141" x2="230" y2="368" stroke="#263241"/>
+  <line x1="24" y1="219" x2="968" y2="219" stroke="#1a2430"/>
+  <line x1="24" y1="257" x2="968" y2="257" stroke="#1a2430"/>
+  <line x1="24" y1="295" x2="968" y2="295" stroke="#1a2430"/>
+  <line x1="24" y1="333" x2="968" y2="333" stroke="#1a2430"/>
+  <line x1="24" y1="371" x2="968" y2="371" stroke="#1a2430"/>
+<rect x="24" y="193" width="3" height="14" rx="1" fill="#8fa1b3"/>
+  <text x="36" y="204.5" class="mono" font-size="13" fill="#c9d1d9">clk</text>
+  <text x="150" y="204.5" class="mono" font-size="12" fill="#8fa1b3">~</text>
+  <rect x="24" y="231" width="3" height="14" rx="1" fill="#d2a8ff"/>
+  <text x="36" y="242.5" class="mono" font-size="13" fill="#c9d1d9">focus[*]</text>
+  <text x="150" y="242.5" class="mono" font-size="12" fill="#d2a8ff">TRACE</text>
+  <rect x="24" y="269" width="3" height="14" rx="1" fill="#76b900"/>
+  <text x="36" y="280.5" class="mono" font-size="13" fill="#c9d1d9">nvidia_dv</text>
+  <text x="150" y="280.5" class="mono" font-size="12" fill="#76b900">0</text>
+  <rect x="24" y="307" width="3" height="14" rx="1" fill="#79c0ff"/>
+  <text x="36" y="318.5" class="mono" font-size="13" fill="#c9d1d9">ieee_pres</text>
+  <text x="150" y="318.5" class="mono" font-size="12" fill="#79c0ff">1</text>
+  <rect x="24" y="345" width="3" height="14" rx="1" fill="#ffa657"/>
+  <text x="36" y="356.5" class="mono" font-size="13" fill="#c9d1d9">trace</text>
+  <text x="150" y="356.5" class="mono" font-size="12" fill="#ffa657">1</text>
+  <text x="36" y="164" class="mono" font-size="11" fill="#4d5b69">signal</text>
+  <text x="150" y="164" class="mono" font-size="11" fill="#4d5b69">@now</text>
+<clipPath id="wave"><rect x="231" y="176" width="737" height="192"/></clipPath>
+  <g clip-path="url(#wave)">
+  <path class="clk" d="M230 209 H233 V191 H243.0 V209 H250 H253 V191 H263.0 V209 H270 H273 V191 H283.0 V209 H290 H293 V191 H303.0 V209 H310 H313 V191 H323.0 V209 H330 H333 V191 H343.0 V209 H350 H353 V191 H363.0 V209 H370 H373 V191 H383.0 V209 H390 H393 V191 H403.0 V209 H410 H413 V191 H423.0 V209 H430 H433 V191 H443.0 V209 H450 H453 V191 H463.0 V209 H470 H473 V191 H483.0 V209 H490 H493 V191 H503.0 V209 H510 H513 V191 H523.0 V209 H530 H533 V191 H543.0 V209 H550 H553 V191 H563.0 V209 H570 H573 V191 H583.0 V209 H590 H593 V191 H603.0 V209 H610 H613 V191 H623.0 V209 H630 H633 V191 H643.0 V209 H650 H653 V191 H663.0 V209 H670 H673 V191 H683.0 V209 H690 H693 V191 H703.0 V209 H710 H713 V191 H723.0 V209 H730 H733 V191 H743.0 V209 H750 H753 V191 H763.0 V209 H770 H773 V191 H783.0 V209 H790 H793 V191 H803.0 V209 H810 H813 V191 H823.0 V209 H830 H833 V191 H843.0 V209 H850 H853 V191 H863.0 V209 H870 H873 V191 H883.0 V209 H890 H893 V191 H903.0 V209 H910 H913 V191 H923.0 V209 H930 H933 V191 H943.0 V209 H950 H953 V191 H963.0 V209 H970 H973 V191 H983.0 V209 H990 H993 V191 H1003.0 V209 H1010" fill="none" stroke="#8fa1b3" stroke-width="1.5"/>
+  <polygon points="212.5 238 217.5 229 461.2 229 466.2 238 461.2 247 217.5 247" fill="#d2a8ff" fill-opacity="0.10" stroke="#d2a8ff" stroke-width="1.3"/>
+  <text x="348.1" y="242" class="mono" font-size="11" fill="#d2a8ff" text-anchor="middle">C · shell · python</text>
+  <polygon points="466.2 238 471.2 229 575.0 229 580.0 238 575.0 247 471.2 247" fill="#d2a8ff" fill-opacity="0.10" stroke="#d2a8ff" stroke-width="1.3"/>
+  <text x="523.1" y="242" class="mono" font-size="11" fill="#d2a8ff" text-anchor="middle">verilog · uvm</text>
+  <polygon points="580.0 238 585.0 229 736.0 229 741.0 238 736.0 247 585.0 247" fill="#d2a8ff" fill-opacity="0.10" stroke="#d2a8ff" stroke-width="1.3"/>
+  <text x="660.5" y="242" class="mono" font-size="11" fill="#d2a8ff" text-anchor="middle">rtl · fpga · ai accel</text>
+  <polygon points="741.0 238 746.0 229 1012.5 229 1017.5 238 1012.5 247 746.0 247" fill="#d2a8ff" fill-opacity="0.10" stroke="#d2a8ff" stroke-width="1.3"/>
+  <text x="854.5" y="242" class="mono" font-size="11" fill="#d2a8ff" text-anchor="middle">pcb × ai → trace</text>
+  <rect x="469.7" y="267" width="52.6" height="18" fill="#76b900" fill-opacity="0.13"/>
+  <rect x="644.7" y="267" width="57.8" height="18" fill="#76b900" fill-opacity="0.13"/>
+  <path d="M230 285 H469.7 V267 H522.3 V285 H644.7 V267 H702.5 V285 H973" fill="none" stroke="#76b900" stroke-width="1.6" stroke-linejoin="round"/>
+  <text x="496.0" y="280" class="mono" font-size="10" fill="#76b900" text-anchor="middle">GPU DV</text>
+  <text x="673.6" y="280" class="mono" font-size="10" fill="#76b900" text-anchor="middle">GPU DV</text>
+  <text x="746.3" y="280" class="mono" font-size="10.5" fill="#4d5b69" font-style="italic">// return offer: declined</text>
+  <rect x="644.7" y="305" width="328.3" height="18" fill="#79c0ff" fill-opacity="0.13"/>
+  <path d="M230 323 H644.7 V305 H973" fill="none" stroke="#79c0ff" stroke-width="1.6" stroke-linejoin="round"/>
+  <text x="656.7" y="318" class="mono" font-size="10.5" fill="#79c0ff">IEEE @ Howard · president · 100+ members</text>
+  <rect class="glow" x="741.0" y="340" width="232.0" height="24" rx="3" fill="#ffa657" fill-opacity="0.10"/>
+  <rect x="741.0" y="343" width="232.0" height="18" fill="#ffa657" fill-opacity="0.13"/>
+  <path d="M230 361 H741.0 V343 H973" fill="none" stroke="#ffa657" stroke-width="1.6" stroke-linejoin="round"/>
+  <text x="753.0" y="356" class="mono" font-size="10.5" font-weight="600" fill="#ffa657">co-founder · idea → PCB</text>
+  <text x="247.5" y="356" class="mono" font-size="10.5" fill="#4d5b69" font-style="italic">// rising edge pending…</text>
+  </g>
+
+  <g class="cursor">
+    <line x1="909.0" y1="146" x2="909.0" y2="368" stroke="#ff7b72" stroke-width="1.5"/>
+    <rect x="892.0" y="145" width="34" height="16" rx="3" fill="#ff7b72"/>
+    <text x="909.0" y="157" class="mono" font-size="10.5" font-weight="700" fill="#0b1016" text-anchor="middle">now</text>
+  </g>
+
+  <path d="M0.5 368 H999.5 V389.5 A14 14 0 0 1 985.5 403.5 H14.5 A14 14 0 0 1 0.5 389.5 Z" fill="#0f161e"/>
+  <line x1="0.5" y1="368" x2="999.5" y2="368" stroke="#263241"/>
+  <text x="24" y="390" class="mono" font-size="11.5" fill="#8b98a5">▸ cursor: now  ·  <tspan fill="#ffa657">trace = 1'b1</tspan>  ·  <tspan fill="#4d5b69">// the stack starts at the transistor</tspan></text>
+  <text x="976" y="390" class="mono" font-size="11.5" fill="#4d5b69" text-anchor="end">0 errors · 0 warnings</text>
+</svg>

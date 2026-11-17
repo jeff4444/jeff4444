@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" role="img" aria-labelledby="t d">
+  <title id="t">jeff_soc — skills as a chip floorplan</title>
+  <desc id="d">A die shot with blocks for RTL design, design verification, AI acceleration, FPGA, app development, cross-device bridges, and an always-on founder-mode block for Trace.</desc>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .bus path { stroke-dasharray: 3 13; animation: flow 1.6s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -32; } }
+    .pulse { animation: pulse 2.8s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { stroke-opacity: 0.15; } 50% { stroke-opacity: 0.75; } }
+    .blink { animation: blink 1.2s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .bus path, .pulse, .blink { animation: none; } }
+  </style>
+  <rect x="0.5" y="0.5" width="999" height="499" rx="14" fill="#0b1016" stroke="#263241"/>
+  <path d="M14.5 0.5 H985.5 A14 14 0 0 1 999.5 14.5 V34 H0.5 V14.5 A14 14 0 0 1 14.5 0.5 Z" fill="#0f161e"/>
+  <line x1="0.5" y1="34" x2="999.5" y2="34" stroke="#263241"/>
+  <circle cx="22" cy="17" r="5.5" fill="#ff5f57"/>
+  <circle cx="40" cy="17" r="5.5" fill="#febc2e"/>
+  <circle cx="58" cy="17" r="5.5" fill="#28c840"/>
+  <text x="80" y="21.5" class="mono" font-size="12" fill="#8b98a5">jeff_soc · floorplan.def — die shot</text>
+  <text x="976" y="21.5" class="mono" font-size="12" fill="#8b98a5" text-anchor="end">TT corner · 1.0 V · 25 °C</text>
+<rect x="32" y="50" width="936" height="410" rx="4" fill="#0d131a" stroke="#3a4756"/>
+<g fill="#ffa657" fill-opacity="0.55"><rect x="54" y="56" width="12" height="10" rx="1.5"/><rect x="54" y="444" width="12" height="10" rx="1.5"/><rect x="78" y="56" width="12" height="10" rx="1.5"/><rect x="78" y="444" width="12" height="10" rx="1.5"/><rect x="102" y="56" width="12" height="10" rx="1.5"/><rect x="102" y="444" width="12" height="10" rx="1.5"/><rect x="126" y="56" width="12" height="10" rx="1.5"/><rect x="126" y="444" width="12" height="10" rx="1.5"/><rect x="150" y="56" width="12" height="10" rx="1.5"/><rect x="150" y="444" width="12" height="10" rx="1.5"/><rect x="174" y="56" width="12" height="10" rx="1.5"/><rect x="174" y="444" width="12" height="10" rx="1.5"/><rect x="198" y="56" width="12" height="10" rx="1.5"/><rect x="198" y="444" width="12" height="10" rx="1.5"/><rect x="222" y="56" width="12" height="10" rx="1.5"/><rect x="222" y="444" width="12" height="10" rx="1.5"/><rect x="246" y="56" width="12" height="10" rx="1.5"/><rect x="246" y="444" width="12" height="10" rx="1.5"/><rect x="270" y="56" width="12" height="10" rx="1.5"/><rect x="270" y="444" width="12" height="10" rx="1.5"/><rect x="294" y="56" width="12" height="10" rx="1.5"/><rect x="294" y="444" width="12" height="10" rx="1.5"/><rect x="318" y="56" width="12" height="10" rx="1.5"/><rect x="318" y="444" width="12" height="10" rx="1.5"/><rect x="342" y="56" width="12" height="10" rx="1.5"/><rect x="342" y="444" width="12" height="10" rx="1.5"/><rect x="366" y="56" width="12" height="10" rx="1.5"/><rect x="366" y="444" width="12" height="10" rx="1.5"/><rect x="390" y="56" width="12" height="10" rx="1.5"/><rect x="390" y="444" width="12" height="10" rx="1.5"/><rect x="414" y="56" width="12" height="10" rx="1.5"/><rect x="414" y="444" width="12" height="10" rx="1.5"/><rect x="438" y="56" width="12" height="10" rx="1.5"/><rect x="438" y="444" width="12" height="10" rx="1.5"/><rect x="462" y="56" width="12" height="10" rx="1.5"/><rect x="462" y="444" width="12" height="10" rx="1.5"/><rect x="486" y="56" width="12" height="10" rx="1.5"/><rect x="486" y="444" width="12" height="10" rx="1.5"/><rect x="510" y="56" width="12" height="10" rx="1.5"/><rect x="510" y="444" width="12" height="10" rx="1.5"/><rect x="534" y="56" width="12" height="10" rx="1.5"/><rect x="534" y="444" width="12" height="10" rx="1.5"/><rect x="558" y="56" width="12" height="10" rx="1.5"/><rect x="558" y="444" width="12" height="10" rx="1.5"/><rect x="582" y="56" width="12" height="10" rx="1.5"/><rect x="582" y="444" width="12" height="10" rx="1.5"/><rect x="606" y="56" width="12" height="10" rx="1.5"/><rect x="606" y="444" width="12" height="10" rx="1.5"/><rect x="630" y="56" width="12" height="10" rx="1.5"/><rect x="630" y="444" width="12" height="10" rx="1.5"/><rect x="654" y="56" width="12" height="10" rx="1.5"/><rect x="654" y="444" width="12" height="10" rx="1.5"/><rect x="678" y="56" width="12" height="10" rx="1.5"/><rect x="678" y="444" width="12" height="10" rx="1.5"/><rect x="702" y="56" width="12" height="10" rx="1.5"/><rect x="702" y="444" width="12" height="10" rx="1.5"/><rect x="726" y="56" width="12" height="10" rx="1.5"/><rect x="726" y="444" width="12" height="10" rx="1.5"/><rect x="750" y="56" width="12" height="10" rx="1.5"/><rect x="750" y="444" width="12" height="10" rx="1.5"/><rect x="774" y="56" width="12" height="10" rx="1.5"/><rect x="774" y="444" width="12" height="10" rx="1.5"/><rect x="798" y="56" width="12" height="10" rx="1.5"/><rect x="798" y="444" width="12" height="10" rx="1.5"/><rect x="822" y="56" width="12" height="10" rx="1.5"/><rect x="822" y="444" width="12" height="10" rx="1.5"/><rect x="846" y="56" width="12" height="10" rx="1.5"/><rect x="846" y="444" width="12" height="10" rx="1.5"/><rect x="870" y="56" width="12" height="10" rx="1.5"/><rect x="870" y="444" width="12" height="10" rx="1.5"/><rect x="894" y="56" width="12" height="10" rx="1.5"/><rect x="894" y="444" width="12" height="10" rx="1.5"/><rect x="918" y="56" width="12" height="10" rx="1.5"/><rect x="918" y="444" width="12" height="10" rx="1.5"/><rect x="942" y="56" width="12" height="10" rx="1.5"/><rect x="942" y="444" width="12" height="10" rx="1.5"/><rect x="38" y="80" width="10" height="12" rx="1.5"/><rect x="952" y="80" width="10" height="12" rx="1.5"/><rect x="38" y="104" width="10" height="12" rx="1.5"/><rect x="952" y="104" width="10" height="12" rx="1.5"/><rect x="38" y="128" width="10" height="12" rx="1.5"/><rect x="952" y="128" width="10" height="12" rx="1.5"/><rect x="38" y="152" width="10" height="12" rx="1.5"/><rect x="952" y="152" width="10" height="12" rx="1.5"/><rect x="38" y="176" width="10" height="12" rx="1.5"/><rect x="952" y="176" width="10" height="12" rx="1.5"/><rect x="38" y="200" width="10" height="12" rx="1.5"/><rect x="952" y="200" width="10" height="12" rx="1.5"/><rect x="38" y="224" width="10" height="12" rx="1.5"/><rect x="952" y="224" width="10" height="12" rx="1.5"/><rect x="38" y="248" width="10" height="12" rx="1.5"/><rect x="952" y="248" width="10" height="12" rx="1.5"/><rect x="38" y="272" width="10" height="12" rx="1.5"/><rect x="952" y="272" width="10" height="12" rx="1.5"/><rect x="38" y="296" width="10" height="12" rx="1.5"/><rect x="952" y="296" width="10" height="12" rx="1.5"/><rect x="38" y="320" width="10" height="12" rx="1.5"/><rect x="952" y="320" width="10" height="12" rx="1.5"/><rect x="38" y="344" width="10" height="12" rx="1.5"/><rect x="952" y="344" width="10" height="12" rx="1.5"/><rect x="38" y="368" width="10" height="12" rx="1.5"/><rect x="952" y="368" width="10" height="12" rx="1.5"/><rect x="38" y="392" width="10" height="12" rx="1.5"/><rect x="952" y="392" width="10" height="12" rx="1.5"/><rect x="38" y="416" width="10" height="12" rx="1.5"/><rect x="952" y="416" width="10" height="12" rx="1.5"/></g>
+
+  <defs>
+    <pattern id="cells" width="36" height="9" patternUnits="userSpaceOnUse">
+      <rect x="0" y="1" width="9" height="7" fill="#e6edf3"/>
+      <rect x="11" y="1" width="5" height="7" fill="#e6edf3"/>
+      <rect x="18" y="1" width="12" height="7" fill="#e6edf3"/>
+      <rect x="32" y="1" width="3" height="7" fill="#e6edf3"/>
+    </pattern>
+  </defs>
+
+  <g>
+    <rect x="76" y="84" width="280" height="160" rx="3" fill="#a5d6ff" fill-opacity="0.07" stroke="#a5d6ff" stroke-opacity="0.55"/>
+    <rect x="77" y="186" width="278" height="57" fill="url(#cells)" opacity="0.05"/>
+    <text x="90" y="110" class="mono" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#a5d6ff">RTL CORE</text>
+    <text x="344" y="110" class="mono" font-size="10" fill="#4d5b69" text-anchor="end">u_rtl_core</text>
+    <g class="mono" font-size="12" fill="#c9d1d9">
+      <text x="90" y="140">SystemVerilog · Verilog · VHDL</text>
+      <text x="90" y="161">RISC-V RV32I · 5-stage pipeline</text>
+      <text x="90" y="182">L1/L2 caches · ARM asm</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="368" y="84" width="232" height="160" rx="3" fill="#76b900" fill-opacity="0.07" stroke="#76b900" stroke-opacity="0.55"/>
+    <rect x="369" y="186" width="230" height="57" fill="url(#cells)" opacity="0.05"/>
+    <text x="382" y="110" class="mono" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#76b900">DV UNIT</text>
+    <text x="588" y="110" class="mono" font-size="10" fill="#4d5b69" text-anchor="end">u_dv</text>
+    <g class="mono" font-size="12" fill="#c9d1d9">
+      <text x="382" y="140">UVM · SV assertions</text>
+      <text x="382" y="161">pytest · python tooling</text>
+      <text x="382" y="182">CXL perf · VCD/FSDB</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="612" y="84" width="312" height="160" rx="3" fill="#d2a8ff" fill-opacity="0.07" stroke="#d2a8ff" stroke-opacity="0.55"/>
+    <rect x="613" y="186" width="310" height="57" fill="url(#cells)" opacity="0.05"/>
+    <text x="626" y="110" class="mono" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#d2a8ff">AI ACCEL</text>
+    <text x="912" y="110" class="mono" font-size="10" fill="#4d5b69" text-anchor="end">u_npu</text>
+    <g class="mono" font-size="12" fill="#c9d1d9">
+      <text x="626" y="140">transformer prefill + decode in RTL</text>
+      <text x="626" y="161">YOLOv3 · INT8 quantization</text>
+      <text x="626" y="182">Vitis AI · Vitis HLS</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="76" y="256" width="240" height="170" rx="3" fill="#56d4dd" fill-opacity="0.07" stroke="#56d4dd" stroke-opacity="0.55"/>
+    <rect x="77" y="368" width="238" height="57" fill="url(#cells)" opacity="0.05"/>
+    <text x="90" y="282" class="mono" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#56d4dd">FPGA FABRIC</text>
+    <text x="304" y="282" class="mono" font-size="10" fill="#4d5b69" text-anchor="end">u_fabric</text>
+    <g class="mono" font-size="12" fill="#c9d1d9">
+      <text x="90" y="312">Vivado · Zynq UltraScale+</text>
+      <text x="90" y="333">ZCU104 · AUP-ZU3</text>
+      <text x="90" y="354">VGA / HDMI out @ 60 fps</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="328" y="256" width="232" height="170" rx="3" fill="#79c0ff" fill-opacity="0.07" stroke="#79c0ff" stroke-opacity="0.55"/>
+    <rect x="329" y="368" width="230" height="57" fill="url(#cells)" opacity="0.05"/>
+    <text x="342" y="282" class="mono" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#79c0ff">APP LAYER</text>
+    <text x="548" y="282" class="mono" font-size="10" fill="#4d5b69" text-anchor="end">u_apps</text>
+    <g class="mono" font-size="12" fill="#c9d1d9">
+      <text x="342" y="312">TypeScript · Next.js</text>
+      <text x="342" y="333">Python · Supabase</text>
+      <text x="342" y="354">LLM apps &amp; agents</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="572" y="256" width="204" height="170" rx="3" fill="#f2cc60" fill-opacity="0.07" stroke="#f2cc60" stroke-opacity="0.55"/>
+    <rect x="573" y="368" width="202" height="57" fill="url(#cells)" opacity="0.05"/>
+    <text x="586" y="282" class="mono" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#f2cc60">DEVICE BRIDGE</text>
+    <text x="764" y="282" class="mono" font-size="10" fill="#4d5b69" text-anchor="end">u_bridge</text>
+    <g class="mono" font-size="12" fill="#c9d1d9">
+      <text x="586" y="312">Kotlin · Java · Android</text>
+      <text x="586" y="333">Swift · macOS</text>
+      <text x="586" y="354">cross-device protocols</text>
+    </g>
+  </g>
+
+  <g>
+    <rect class="pulse" x="785" y="253" width="142" height="176" rx="5" fill="none" stroke="#ffa657" stroke-width="2"/>
+    <rect x="788" y="256" width="136" height="170" rx="3" fill="#ffa657" fill-opacity="0.12" stroke="#ffa657"/>
+    <text x="802" y="282" class="mono" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#ffa657">FOUNDER</text>
+    <text x="802" y="299" class="mono" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#ffa657">MODE</text>
+    <g class="mono" font-size="12" fill="#c9d1d9">
+      <text x="802" y="332">always_on</text>
+      <text x="802" y="353">@ Trace</text>
+      <text x="802" y="374">idea → PCB</text>
+    </g>
+    <circle class="blink" cx="906" cy="277" r="4" fill="#ffa657"/>
+  </g>
+
+  <g class="bus" fill="none" stroke-width="2" stroke-linecap="round">
+    <path d="M76 250 H924" stroke="#79c0ff" stroke-opacity="0.45"/>
+    <path d="M362 84 V244" stroke="#76b900" stroke-opacity="0.35"/>
+    <path d="M606 84 V244" stroke="#d2a8ff" stroke-opacity="0.35"/>
+    <path d="M322 256 V426" stroke="#56d4dd" stroke-opacity="0.35"/>
+    <path d="M566 256 V426" stroke="#79c0ff" stroke-opacity="0.35"/>
+    <path d="M782 256 V426" stroke="#ffa657" stroke-opacity="0.45"/>
+  </g>
+
+  <text x="944" y="436" class="mono" font-size="9.5" fill="#4d5b69" text-anchor="end">JMA-1 · rev 2026</text>
+  <text x="24" y="484" class="mono" font-size="11.5" fill="#8b98a5"><tspan fill="#ffa657">▪ pad ring</tspan> → KiCad PCBs · analog front-ends · a laser that carries audio</text>
+  <text x="976" y="484" class="mono" font-size="11.5" fill="#4d5b69" text-anchor="end">timing met · 0 DRC</text>
+</svg>

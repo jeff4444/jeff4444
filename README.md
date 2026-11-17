@@ -2,7 +2,7 @@
 
 <img src="assets/banner.svg" width="100%" alt="Waveform-viewer banner: Jeff Mofor Allo, hardware engineer at NVIDIA and co-founder of Trace. Signals show NVIDIA internships in 2024 and 2025 then full-time from August 2026, IEEE presidency from 2025 to graduation in May 2026, and the trace signal high since December 2025." />
 
-<a href="https://www.nvidia.com"><img src="https://img.shields.io/badge/now-NVIDIA-76b900?style=for-the-badge&logo=nvidia&logoColor=76b900&labelColor=0b1016" alt="Now at NVIDIA" /></a>
+<a href="https://www.nvidia.com"><img src="https://img.shields.io/badge/hardware_engineer-NVIDIA-76b900?style=for-the-badge&logo=nvidia&logoColor=76b900&labelColor=0b1016" alt="Hardware engineer at NVIDIA" /></a>
 <a href="https://buildwithtrace.com"><img src="https://img.shields.io/badge/co--founder-Trace-ffa657?style=for-the-badge&labelColor=0b1016" alt="Co-founder of Trace" /></a>
 <br/>
 <a href="https://jeff-allo.vercel.app"><img src="https://img.shields.io/badge/site-jeff--allo.vercel.app-e6edf3?style=for-the-badge&labelColor=0b1016" alt="Website" /></a>
@@ -17,17 +17,21 @@
 
 I'm an electrical engineer who refuses to stay on one layer of the stack. I've spent two summers verifying GPU silicon at **NVIDIA**, put a transformer's prefill *and* decode into **RTL on an FPGA**, sent music across a room **on a laser beam**, and got **Vivado running on an Apple Silicon Mac** because Xilinx said "Windows or Linux" and I took it personally.
 
-These days I'm a hardware engineer at **NVIDIA**, full-time since August 2026, fresh out of **Howard University** with a B.S. in Electrical Engineering. After hours I'm co-founder of **[Trace](https://buildwithtrace.com)**: the fastest path from idea to manufactured PCB.
+These days I wear two hats, with equal weight: hardware engineer at **NVIDIA** (since August 2026) and co-founder of **[Trace](https://buildwithtrace.com)**, the fastest path from idea to manufactured PCB. Before that, **Howard University**, B.S. in Electrical Engineering, class of 2026.
 
 ```systemverilog
 class jeff_allo extends hardware_engineer;
 
-  string day_job  = "hardware engineer @ NVIDIA  // since Aug 2026";
-  string side     = "co-founder @ Trace  // idea -> manufactured PCB";
+  string hats[2]  = '{"hardware engineer @ NVIDIA  // since Aug 2026",
+                      "co-founder @ Trace  // idea -> manufactured PCB"};
   string alma     = "Howard University, B.S. Electrical Engineering '26";
   string before[] = '{"NVIDIA GPU ASIC design verification intern x2",
                       "president, IEEE @ Howard University (100+ members)"};
   string home     = "Maryland  // by way of Cameroon";
+
+  // two hats, same weight
+  rand int unsigned effort[2];
+  constraint balance_c { effort[0] == effort[1]; }  // NVIDIA == Trace
 
   // what I build when nobody's watching
   rand side_quest_e next;
@@ -47,7 +51,7 @@ endclass : jeff_allo
 
 ### 🔬 die shot
 
-<img src="assets/soc.svg" width="100%" alt="A chip floorplan of skills: RTL core (SystemVerilog, Verilog, VHDL, RISC-V), DV unit (UVM, pytest, CXL), AI accelerator (transformers in RTL, YOLOv3 INT8, Vitis AI), FPGA fabric (Vivado, Zynq UltraScale+), app layer (TypeScript, Next.js, Python), device bridge (Kotlin, Java, Swift), and an after-hours founder-mode block for Trace." />
+<img src="assets/soc.svg" width="100%" alt="A chip floorplan of skills: RTL core (SystemVerilog, Verilog, VHDL, RISC-V), DV unit (UVM, pytest, CXL), AI accelerator (transformers in RTL, YOLOv3 INT8, Vitis AI), FPGA fabric (Vivado, Zynq UltraScale+), app layer (TypeScript, Next.js, Python), device bridge (Kotlin, Java, Swift), and a dual-core block running NVIDIA and Trace at 50% each." />
 
 <br/>
 

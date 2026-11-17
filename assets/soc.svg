@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" role="img" aria-labelledby="t d">
   <title id="t">jeff_soc — skills as a chip floorplan</title>
-  <desc id="d">A die shot with blocks for RTL design, design verification, AI acceleration, FPGA, app development, cross-device bridges, and an after-hours founder-mode block for Trace.</desc>
+  <desc id="d">A die shot with blocks for RTL design, design verification, AI acceleration, FPGA, app development, cross-device bridges, and a dual-core block running NVIDIA and Trace at 50% each.</desc>
   <style>
     .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
     .bus path { stroke-dasharray: 3 13; animation: flow 1.6s linear infinite; }
@@ -103,17 +103,23 @@
     </g>
   </g>
 
+  <defs>
+    <linearGradient id="dual" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#76b900"/><stop offset="1" stop-color="#ffa657"/>
+    </linearGradient>
+  </defs>
   <g>
-    <rect class="pulse" x="785" y="253" width="142" height="176" rx="5" fill="none" stroke="#ffa657" stroke-width="2"/>
-    <rect x="788" y="256" width="136" height="170" rx="3" fill="#ffa657" fill-opacity="0.12" stroke="#ffa657"/>
-    <text x="802" y="282" class="mono" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#ffa657">FOUNDER</text>
-    <text x="802" y="299" class="mono" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#ffa657">MODE</text>
-    <g class="mono" font-size="12" fill="#c9d1d9">
-      <text x="802" y="332">after_hours</text>
-      <text x="802" y="353">@ Trace</text>
-      <text x="802" y="374">idea → PCB</text>
-    </g>
-    <circle class="blink" cx="906" cy="277" r="4" fill="#ffa657"/>
+    <rect class="pulse" x="785" y="253" width="142" height="176" rx="5" fill="none" stroke="url(#dual)" stroke-width="2"/>
+    <rect x="788" y="256" width="136" height="170" rx="3" fill="#121a22" stroke="url(#dual)"/>
+    <text x="802" y="280" class="mono" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#e6edf3">DUAL CORE</text>
+    <rect x="796" y="292" width="120" height="56" rx="3" fill="#76b900" fill-opacity="0.13" stroke="#76b900" stroke-opacity="0.8"/>
+    <text x="806" y="315" class="mono" font-size="12.5" font-weight="700" letter-spacing="1.2" fill="#76b900">NVIDIA</text>
+    <text x="806" y="334" class="mono" font-size="11" fill="#c9d1d9">core0 · 50%</text>
+    <circle class="blink" cx="904" cy="310" r="3.5" fill="#76b900"/>
+    <rect x="796" y="358" width="120" height="56" rx="3" fill="#ffa657" fill-opacity="0.13" stroke="#ffa657" stroke-opacity="0.8"/>
+    <text x="806" y="381" class="mono" font-size="12.5" font-weight="700" letter-spacing="1.2" fill="#ffa657">TRACE</text>
+    <text x="806" y="400" class="mono" font-size="11" fill="#c9d1d9">core1 · 50%</text>
+    <circle class="blink" cx="904" cy="376" r="3.5" fill="#ffa657"/>
   </g>
 
   <g class="bus" fill="none" stroke-width="2" stroke-linecap="round">

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="404" viewBox="0 0 1000 404" role="img" aria-labelledby="t d">
   <title id="t">Jeff Mofor Allo — waveform viewer</title>
-  <desc id="d">A timing diagram of Jeff's path: NVIDIA GPU design-verification internships in 2024 and 2025, IEEE Howard president from 2025, and the trace signal going high in December 2025, when Jeff co-founded Trace.</desc>
+  <desc id="d">A timing diagram of Jeff's path: NVIDIA internships in 2024 and 2025, then full-time at NVIDIA from August 2026; IEEE Howard president from 2025 until graduating in May 2026; and the trace signal high since December 2025, when Jeff co-founded Trace.</desc>
   <style>
     .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
     .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -8,18 +8,18 @@
     @keyframes clk { to { transform: translateX(-20px); } }
     .blink { animation: blink 1.2s step-end infinite; }
     @keyframes blink { 50% { opacity: 0; } }
-    .curtain { animation: reveal 2.6s steps(79) 0.5s forwards; }
-    @keyframes reveal { to { transform: translateX(648px); } }
-    .caret { animation: caret 2.6s steps(79) 0.5s forwards, blink 1s step-end 3.1s infinite; }
-    @keyframes caret { to { transform: translateX(644px); } }
+    .curtain { animation: reveal 2.6s steps(84) 0.5s forwards; }
+    @keyframes reveal { to { transform: translateX(672px); } }
+    .caret { animation: caret 2.6s steps(84) 0.5s forwards, blink 1s step-end 3.1s infinite; }
+    @keyframes caret { to { transform: translateX(668px); } }
     .cursor { animation: sweep 2.4s cubic-bezier(.2,.8,.2,1) 0.3s both; }
     @keyframes sweep { from { transform: translateX(-679.0px); } to { transform: translateX(0); } }
     .glow { animation: glow 2.8s ease-in-out infinite; }
     @keyframes glow { 50% { fill-opacity: 0.22; } }
     @media (prefers-reduced-motion: reduce) {
       .clk, .blink, .glow { animation: none; }
-      .curtain { animation: none; transform: translateX(648px); }
-      .caret { animation: none; transform: translateX(644px); }
+      .curtain { animation: none; transform: translateX(672px); }
+      .caret { animation: none; transform: translateX(668px); }
       .cursor { animation: none; }
     }
   </style>
@@ -33,15 +33,15 @@
   <text x="976" y="21.5" class="mono" font-size="12" fill="#8b98a5" text-anchor="end">sim running <tspan class="blink" fill="#28c840">●</tspan></text>
 
   <text x="32" y="86" class="sans" font-size="38" font-weight="700" fill="#e6edf3" letter-spacing="-0.5">Jeff Mofor Allo</text>
-  <clipPath id="subclip"><rect x="30" y="100" width="652" height="24"/></clipPath>
-  <text x="32" y="117" class="mono" font-size="13" fill="#8b98a5" textLength="640" lengthAdjust="spacing">hardware engineer · co-founder @ trace · full-stack, starting at the transistor</text>
-  <g clip-path="url(#subclip)"><rect class="curtain" x="30" y="100" width="652" height="24" fill="#0b1016"/></g>
+  <clipPath id="subclip"><rect x="30" y="100" width="676" height="24"/></clipPath>
+  <text x="32" y="117" class="mono" font-size="13" fill="#8b98a5" textLength="664" lengthAdjust="spacing">hardware engineer @ nvidia · co-founder @ trace · full-stack, from the transistor up</text>
+  <g clip-path="url(#subclip)"><rect class="curtain" x="30" y="100" width="676" height="24" fill="#0b1016"/></g>
   <rect class="caret" x="34" y="104" width="7" height="16" fill="#ffa657"/>
 
   <g class="mono" font-size="12">
-    <text x="968" y="66" text-anchor="end" fill="#4d5b69">loc <tspan fill="#c9d1d9">Washington, DC</tspan></text>
-    <text x="968" y="86" text-anchor="end" fill="#4d5b69">school <tspan fill="#c9d1d9">Howard University · EE</tspan></text>
-    <text x="968" y="106" text-anchor="end" fill="#4d5b69">prev <tspan fill="#76b900">NVIDIA</tspan><tspan fill="#c9d1d9"> GPU ASIC DV ×2</tspan></text>
+    <text x="968" y="66" text-anchor="end" fill="#4d5b69">loc <tspan fill="#c9d1d9">Maryland, US</tspan></text>
+    <text x="968" y="86" text-anchor="end" fill="#4d5b69">school <tspan fill="#c9d1d9">Howard · B.S. EE '26</tspan></text>
+    <text x="968" y="106" text-anchor="end" fill="#4d5b69">now <tspan fill="#76b900">NVIDIA</tspan><tspan fill="#c9d1d9"> · since Aug '26</tspan></text>
   </g>
   <line x1="0.5" y1="140" x2="999.5" y2="140" stroke="#263241"/>
 <rect x="230" y="141" width="738" height="227" fill="#0c1218"/>
@@ -77,13 +77,13 @@
   <text x="150" y="204.5" class="mono" font-size="12" fill="#8fa1b3">~</text>
   <rect x="24" y="231" width="3" height="14" rx="1" fill="#d2a8ff"/>
   <text x="36" y="242.5" class="mono" font-size="13" fill="#c9d1d9">focus[*]</text>
-  <text x="150" y="242.5" class="mono" font-size="12" fill="#d2a8ff">TRACE</text>
+  <text x="150" y="242.5" class="mono" font-size="12" fill="#d2a8ff">SILICON</text>
   <rect x="24" y="269" width="3" height="14" rx="1" fill="#76b900"/>
-  <text x="36" y="280.5" class="mono" font-size="13" fill="#c9d1d9">nvidia_dv</text>
-  <text x="150" y="280.5" class="mono" font-size="12" fill="#76b900">0</text>
+  <text x="36" y="280.5" class="mono" font-size="13" fill="#c9d1d9">nvidia</text>
+  <text x="150" y="280.5" class="mono" font-size="12" fill="#76b900">1</text>
   <rect x="24" y="307" width="3" height="14" rx="1" fill="#79c0ff"/>
   <text x="36" y="318.5" class="mono" font-size="13" fill="#c9d1d9">ieee_pres</text>
-  <text x="150" y="318.5" class="mono" font-size="12" fill="#79c0ff">1</text>
+  <text x="150" y="318.5" class="mono" font-size="12" fill="#79c0ff">0</text>
   <rect x="24" y="345" width="3" height="14" rx="1" fill="#ffa657"/>
   <text x="36" y="356.5" class="mono" font-size="13" fill="#c9d1d9">trace</text>
   <text x="150" y="356.5" class="mono" font-size="12" fill="#ffa657">1</text>
@@ -98,17 +98,21 @@
   <text x="523.1" y="242" class="mono" font-size="11" fill="#d2a8ff" text-anchor="middle">verilog · uvm</text>
   <polygon points="580.0 238 585.0 229 736.0 229 741.0 238 736.0 247 585.0 247" fill="#d2a8ff" fill-opacity="0.10" stroke="#d2a8ff" stroke-width="1.3"/>
   <text x="660.5" y="242" class="mono" font-size="11" fill="#d2a8ff" text-anchor="middle">rtl · fpga · ai accel</text>
-  <polygon points="741.0 238 746.0 229 1012.5 229 1017.5 238 1012.5 247 746.0 247" fill="#d2a8ff" fill-opacity="0.10" stroke="#d2a8ff" stroke-width="1.3"/>
-  <text x="854.5" y="242" class="mono" font-size="11" fill="#d2a8ff" text-anchor="middle">pcb × ai → trace</text>
+  <polygon points="741.0 238 746.0 229 855.0 229 860.0 238 855.0 247 746.0 247" fill="#d2a8ff" fill-opacity="0.10" stroke="#d2a8ff" stroke-width="1.3"/>
+  <text x="800.5" y="242" class="mono" font-size="11" fill="#d2a8ff" text-anchor="middle">pcb × ai</text>
+  <polygon points="860.0 238 865.0 229 1012.5 229 1017.5 238 1012.5 247 865.0 247" fill="#d2a8ff" fill-opacity="0.10" stroke="#d2a8ff" stroke-width="1.3"/>
+  <text x="940.5" y="242" class="mono" font-size="11" fill="#d2a8ff" text-anchor="middle">silicon</text>
   <rect x="469.7" y="267" width="52.6" height="18" fill="#76b900" fill-opacity="0.13"/>
   <rect x="644.7" y="267" width="57.8" height="18" fill="#76b900" fill-opacity="0.13"/>
-  <path d="M230 285 H469.7 V267 H522.3 V285 H644.7 V267 H702.5 V285 H973" fill="none" stroke="#76b900" stroke-width="1.6" stroke-linejoin="round"/>
-  <text x="496.0" y="280" class="mono" font-size="10" fill="#76b900" text-anchor="middle">GPU DV</text>
-  <text x="673.6" y="280" class="mono" font-size="10" fill="#76b900" text-anchor="middle">GPU DV</text>
-  <text x="746.3" y="280" class="mono" font-size="10.5" fill="#4d5b69" font-style="italic">// return offer: declined</text>
-  <rect x="644.7" y="305" width="328.3" height="18" fill="#79c0ff" fill-opacity="0.13"/>
-  <path d="M230 323 H644.7 V305 H973" fill="none" stroke="#79c0ff" stroke-width="1.6" stroke-linejoin="round"/>
-  <text x="656.7" y="318" class="mono" font-size="10.5" fill="#79c0ff">IEEE @ Howard · president · 100+ members</text>
+  <rect x="860.0" y="267" width="113.0" height="18" fill="#76b900" fill-opacity="0.13"/>
+  <path d="M230 285 H469.7 V267 H522.3 V285 H644.7 V267 H702.5 V285 H860.0 V267 H973" fill="none" stroke="#76b900" stroke-width="1.6" stroke-linejoin="round"/>
+  <text x="496.0" y="280" class="mono" font-size="10" fill="#76b900" text-anchor="middle">intern</text>
+  <text x="673.6" y="280" class="mono" font-size="10" fill="#76b900" text-anchor="middle">intern</text>
+  <text x="854.0" y="277" class="mono" font-size="10.5" fill="#4d5b69" font-style="italic" text-anchor="end">// full-time →</text>
+  <rect x="644.7" y="305" width="175.0" height="18" fill="#79c0ff" fill-opacity="0.13"/>
+  <path d="M230 323 H644.7 V305 H819.7 V323 H973" fill="none" stroke="#79c0ff" stroke-width="1.6" stroke-linejoin="round"/>
+  <text x="732.2" y="318" class="mono" font-size="10.5" fill="#79c0ff" text-anchor="middle">president</text>
+  <text x="827.7" y="315" class="mono" font-size="10.5" fill="#4d5b69" font-style="italic">// graduated</text>
   <rect class="glow" x="741.0" y="340" width="232.0" height="24" rx="3" fill="#ffa657" fill-opacity="0.10"/>
   <rect x="741.0" y="343" width="232.0" height="18" fill="#ffa657" fill-opacity="0.13"/>
   <path d="M230 361 H741.0 V343 H973" fill="none" stroke="#ffa657" stroke-width="1.6" stroke-linejoin="round"/>
@@ -124,6 +128,6 @@
 
   <path d="M0.5 368 H999.5 V389.5 A14 14 0 0 1 985.5 403.5 H14.5 A14 14 0 0 1 0.5 389.5 Z" fill="#0f161e"/>
   <line x1="0.5" y1="368" x2="999.5" y2="368" stroke="#263241"/>
-  <text x="24" y="390" class="mono" font-size="11.5" fill="#8b98a5">▸ cursor: now  ·  <tspan fill="#ffa657">trace = 1'b1</tspan>  ·  <tspan fill="#4d5b69">// the stack starts at the transistor</tspan></text>
+  <text x="24" y="390" class="mono" font-size="11.5" fill="#8b98a5">▸ cursor: now  ·  <tspan fill="#76b900">nvidia = 1'b1</tspan>  ·  <tspan fill="#ffa657">trace = 1'b1</tspan>  ·  <tspan fill="#4d5b69">// the stack starts at the transistor</tspan></text>
   <text x="976" y="390" class="mono" font-size="11.5" fill="#4d5b69" text-anchor="end">0 errors · 0 warnings</text>
 </svg>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" role="img" aria-labelledby="t d">
   <title id="t">jeff_soc — skills as a chip floorplan</title>
-  <desc id="d">A die shot with blocks for RTL design, design verification, AI acceleration, FPGA, app development, cross-device bridges, and an always-on founder-mode block for Trace.</desc>
+  <desc id="d">A die shot with blocks for RTL design, design verification, AI acceleration, FPGA, app development, cross-device bridges, and an after-hours founder-mode block for Trace.</desc>
   <style>
     .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
     .bus path { stroke-dasharray: 3 13; animation: flow 1.6s linear infinite; }
@@ -109,7 +109,7 @@
     <text x="802" y="282" class="mono" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#ffa657">FOUNDER</text>
     <text x="802" y="299" class="mono" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#ffa657">MODE</text>
     <g class="mono" font-size="12" fill="#c9d1d9">
-      <text x="802" y="332">always_on</text>
+      <text x="802" y="332">after_hours</text>
       <text x="802" y="353">@ Trace</text>
       <text x="802" y="374">idea → PCB</text>
     </g>

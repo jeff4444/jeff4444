@@ -1,8 +1,10 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Waveform-viewer banner: Jeff Mofor Allo, hardware engineer and co-founder of Trace. Signals show NVIDIA GPU DV internships in 2024 and 2025, IEEE presidency from 2025, and the trace signal going high in December 2025." />
+<img src="assets/banner.svg" width="100%" alt="Waveform-viewer banner: Jeff Mofor Allo, hardware engineer at NVIDIA and co-founder of Trace. Signals show NVIDIA internships in 2024 and 2025 then full-time from August 2026, IEEE presidency from 2025 to graduation in May 2026, and the trace signal high since December 2025." />
 
-<a href="https://buildwithtrace.com"><img src="https://img.shields.io/badge/building-Trace-ffa657?style=for-the-badge&labelColor=0b1016" alt="Building Trace" /></a>
+<a href="https://www.nvidia.com"><img src="https://img.shields.io/badge/now-NVIDIA-76b900?style=for-the-badge&logo=nvidia&logoColor=76b900&labelColor=0b1016" alt="Now at NVIDIA" /></a>
+<a href="https://buildwithtrace.com"><img src="https://img.shields.io/badge/co--founder-Trace-ffa657?style=for-the-badge&labelColor=0b1016" alt="Co-founder of Trace" /></a>
+<br/>
 <a href="https://jeff-allo.vercel.app"><img src="https://img.shields.io/badge/site-jeff--allo.vercel.app-e6edf3?style=for-the-badge&labelColor=0b1016" alt="Website" /></a>
 <a href="https://www.linkedin.com/in/jeff-allo/"><img src="https://img.shields.io/badge/LinkedIn-jeff--allo-79c0ff?style=for-the-badge&labelColor=0b1016" alt="LinkedIn" /></a>
 <a href="https://x.com/MoforJeff"><img src="https://img.shields.io/badge/@MoforJeff-0b1016?style=for-the-badge&logo=x&logoColor=e6edf3" alt="X / Twitter" /></a>
@@ -13,17 +15,19 @@
 
 ### hey, I'm Jeff 👋
 
-I'm an electrical engineer who refuses to stay on one layer of the stack. I've verified GPU silicon at **NVIDIA** (twice), put a transformer's prefill *and* decode into **RTL on an FPGA**, sent music across a room **on a laser beam**, and got **Vivado running on an Apple Silicon Mac** because Xilinx said "Windows or Linux" and I took it personally.
+I'm an electrical engineer who refuses to stay on one layer of the stack. I've spent two summers verifying GPU silicon at **NVIDIA**, put a transformer's prefill *and* decode into **RTL on an FPGA**, sent music across a room **on a laser beam**, and got **Vivado running on an Apple Silicon Mac** because Xilinx said "Windows or Linux" and I took it personally.
 
-These days I'm on leave from **Howard University** and turned down a return offer from NVIDIA to build **[Trace](https://buildwithtrace.com)** full-time: the fastest path from idea to manufactured PCB.
+These days I'm a hardware engineer at **NVIDIA**, full-time since August 2026, fresh out of **Howard University** with a B.S. in Electrical Engineering. After hours I'm co-founder of **[Trace](https://buildwithtrace.com)**: the fastest path from idea to manufactured PCB.
 
 ```systemverilog
 class jeff_allo extends hardware_engineer;
 
-  string now      = "co-founder @ Trace  // idea -> manufactured PCB";
+  string day_job  = "hardware engineer @ NVIDIA  // since Aug 2026";
+  string side     = "co-founder @ Trace  // idea -> manufactured PCB";
+  string alma     = "Howard University, B.S. Electrical Engineering '26";
   string before[] = '{"NVIDIA GPU ASIC design verification intern x2",
                       "president, IEEE @ Howard University (100+ members)"};
-  string home     = "Washington, DC  // by way of Cameroon";
+  string home     = "Maryland  // by way of Cameroon";
 
   // what I build when nobody's watching
   rand side_quest_e next;
@@ -43,7 +47,7 @@ endclass : jeff_allo
 
 ### 🔬 die shot
 
-<img src="assets/soc.svg" width="100%" alt="A chip floorplan of skills: RTL core (SystemVerilog, Verilog, VHDL, RISC-V), DV unit (UVM, pytest, CXL), AI accelerator (transformers in RTL, YOLOv3 INT8, Vitis AI), FPGA fabric (Vivado, Zynq UltraScale+), app layer (TypeScript, Next.js, Python), device bridge (Kotlin, Java, Swift), and an always-on founder-mode block." />
+<img src="assets/soc.svg" width="100%" alt="A chip floorplan of skills: RTL core (SystemVerilog, Verilog, VHDL, RISC-V), DV unit (UVM, pytest, CXL), AI accelerator (transformers in RTL, YOLOv3 INT8, Vitis AI), FPGA fabric (Vivado, Zynq UltraScale+), app layer (TypeScript, Next.js, Python), device bridge (Kotlin, Java, Swift), and an after-hours founder-mode block for Trace." />
 
 <br/>
 
@@ -171,7 +175,7 @@ Connect a repo and an agent writes Mintlify-quality docs for it. Zero config.<br
 <td align="center">🚀<br/><b>YC AI Startup School</b><br/><sub>top 2,500 worldwide</sub></td>
 <td align="center">🏢<br/><b>Founders, Inc.</b><br/><sub>accepted with Trace</sub></td>
 <td align="center">📜<br/><b>Cameroon GCE A-Level</b><br/><sub>honor roll · top 0.05%</sub></td>
-<td align="center">🟩<br/><b>NVIDIA</b><br/><sub>GPU ASIC DV · '24 + '25</sub></td>
+<td align="center">🟩<br/><b>NVIDIA</b><br/><sub>intern '24 + '25 → full-time</sub></td>
 </tr>
 </table>
 
